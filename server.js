@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 var apiRoutes = require('./routes/api.js')
 
 
-mongoose.connect('mongodb://locahost/song-tribe', (err) => {
+mongoose.connect('mongodb://localhost/song-tribe', (err) => {
   console.log(err || "Connected to MongoDB (song-tribe)");
 })
 
